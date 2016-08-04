@@ -1,4 +1,4 @@
-# Project Name
+# LZ-Sidebar
 
 ALPHA VERSION !!! USE AT YOUR OWN RISK !!!
 
