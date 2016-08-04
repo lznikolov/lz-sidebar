@@ -1,0 +1,233 @@
+.operatorHeaderImg {
+    z-index: 101;
+}
+
+.left-img, .right-img {
+    background-color: white;
+}
+
+.operatorHeaderImg > div {
+    position: absolute;
+}
+
+.right-img {
+    right: 0;
+    bottom: 0;
+}
+
+.left-img {
+    z-index: 102;
+}
+
+span.dot::after {
+    content: " \2022";
+}
+
+span.dot::before {
+    content: "\2022  ";
+}
+
+.operatorHeaderTitle {
+    z-index: 102;
+}
+
+.operatorRow > div:nth-child(even) a > img {
+    margin: 0 auto;
+}
+
+.topoperator .page-header {
+    border: none !important;
+    margin: 25px 50px 0;
+    font-size: 18px;
+    line-height: 1;
+    padding-top: 15px;
+    color: black;
+}
+
+.topoperator .operatorRow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topoperator .operatorRow .points {
+    height: 46px;
+    padding-top: 12px;
+}
+
+.topoperator .operatorRow .points > strong > span:first-child {
+    color: #454545;
+}
+
+.topoperator .operatorRow .points > strong > span:last-child {
+    color: #FFF;
+}
+
+.topoperator .operatorRow > div:nth-child(even){
+    align-items: center;
+    display: flex;
+}
+/*
+.topoperator .operatorRow > div:nth-child(even) > div:first-child > div {
+    padding-bottom: 10px;
+}
+*/
+.topoperator .operatorRow .download_button {
+    padding: 10px 0;
+    border: 4px solid;
+}
+
+.topoperator .operatorRow .download_button img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.topoperator > div[lang=de] .points {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*android*/
+#android-sidebar {
+    background-color: #88be46;
+}
+
+#android-sidebar .left-img {
+    background-image: url(/assets/images/sidebar/android-sidebar-left.png);
+    top: -23px;
+    height: 103px;
+    left: -20px;
+    width: 83px;
+    z-index: 1;
+}
+
+#android-sidebar .right-img {
+    background-image: url(/assets/images/sidebar/android-right-nostroke.png);
+    height: 70px;
+    width: 134px;
+}
+
+#android-sidebar .points {
+    background-color: #607D8B;
+    margin-top: 6px;
+    height: 40px;
+}
+
+#android-sidebar .operatorRow hr {
+    border: 1px solid #b8d890;
+}
+
+#android-sidebar .sidebar-dlBtn-mobile {
+    border-color: #3F51B5;
+}
+
+#android-sidebar .sidebar-dlBtn-mobile a {
+    color: #3F51B5;
+}
+
+/*apple*/
+#apple-sidebar {
+    background-color: #EAEBE6;
+}
+
+#apple-sidebar .left-img {
+    background-image: url(/assets/images/sidebar/apple-left-nostroke-2.png);
+    top: -16px;
+    height: 94px;
+    left: -8px;
+    width: 68px;
+}
+
+#apple-sidebar .right-img {
+    background-image: url(/assets/images/sidebar/apple-righ-nostroke.png);
+    height: 68px;
+    width: 74px;
+}
+
+#apple-sidebar .points {
+    padding-top: 9px;
+    background-color: #8e8e93;
+    margin-top: 11px;
+    height: 35px;
+}
+
+#apple-sidebar .operatorRow hr {
+    border-top: 1px solid #d2d3d0;
+}
+
+#apple-sidebar .sidebar-dlBtn-mobile {
+    border-color: #0099F3;
+}
+
+#apple-sidebar .sidebar-dlBtn-mobile a {
+    color: #0099F3
+}
+
+/*mobile*/
+#mobile-sidebar {
+    background-color: #f4f4f4;
+}
+
+#mobile-sidebar .operatorHeaderImg {
+    background: #F4F4F4;
+}
+
+#mobile-sidebar .left-img {
+    background-image: url(/assets/images/sidebar/mobile-left-nostroke.png);
+    top: -45px;
+    height: 123px;
+    left: -20px;
+    width: 98px;
+}
+
+#mobile-sidebar .right-img {
+    background-image: url(/assets/images/sidebar/mobile-right-nostroke.png);
+    height: 57px;
+    width: 125px;
+}
+
+#mobile-sidebar .points {
+    background-color: #007F05;
+}
+
+#mobile-sidebar .operatorRow hr {
+    border: 1px solid #d8d8d8;
+}
+
+#mobile-sidebar .sidebar-dlBtn-mobile {
+    border-color: #FFA200;
+}
+
+#mobile-sidebar .sidebar-dlBtn-mobile a {
+    color: #FFA200;
+}
+
+/*windows*/
+#windows-sidebar {
+    background-color: #00bdf6;
+}
+
+#windows-sidebar .left-img {
+    background-image: url(/assets/images/sidebar/windows-left-nostroke.png);
+    bottom: -46px;
+    height: 91px;
+    left: -16px;
+    width: 94px;
+}
+
+#windows-sidebar .right-img {
+    background-image: url(/assets/images/sidebar/windows-right-nostroke.png);
+    height: 59px;
+    width: 76px;
+}
+
+#windows-sidebar .points {
+    background-color: #2588ED;
+}
+
+#windows-sidebar .sidebar-dlBtn-mobile {
+    border-color: #FFFFFF;
+}
+
+#windows-sidebar .sidebar-dlBtn-mobile a {
+    color: #FFFFFF;
+}

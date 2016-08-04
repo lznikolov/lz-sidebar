@@ -1,0 +1,48 @@
+/* allclicks widget*/
+.allclicks > div > div:first-child {
+    color: orange;
+    font-size: 5rem;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+.allclicks > div > div:last-child {
+    color: #164e22;
+    font-size: 18px;
+    width: 60%;
+    word-wrap: break-word;
+    padding-left: 5%;
+    /*word-break: break-word;*/
+}
+
+.allclicks {
+    background: url('/assets/images/sidebar/allclicks_sidebar_bg.png') no-repeat right bottom;
+    background-size: 50%;
+
+}
+
+.allclicks > div > div {
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+@media (max-width: 991px) {
+    .allclicks > div > div:last-child {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    .allclicks > div > div:first-child {
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .allclicks {
+        background-size: 25%;
+    }
+}
+
+/* end allclicks widget*/
